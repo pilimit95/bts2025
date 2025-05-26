@@ -54,7 +54,7 @@ return (
           <IonButtons slot="start">
             <IonMenuButton />
           </IonButtons>
-          <IonTitle>{name}</IonTitle>
+          <IonTitle>{name} 2025</IonTitle>
         </IonToolbar>
       </IonHeader>
 
