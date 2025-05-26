@@ -64,6 +64,7 @@ return (
             <IonTitle size="large">{name}</IonTitle>
           </IonToolbar>
         </IonHeader>
+        <p>final test</p>
         {cardContent.map((item, index) => (
           <IonCard key={index}>
             <img
