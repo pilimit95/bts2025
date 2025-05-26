@@ -54,7 +54,7 @@ return (
           <IonButtons slot="start">
             <IonMenuButton />
           </IonButtons>
-          <IonTitle>{name} 2025</IonTitle>
+          <IonTitle>{name} 2025gi</IonTitle>
         </IonToolbar>
       </IonHeader>
 
@@ -64,6 +64,7 @@ return (
             <IonTitle size="large">{name}</IonTitle>
           </IonToolbar>
         </IonHeader>
+        <p>hello</p>
         {cardContent.map((item, index) => (
           <IonCard key={index}>
             <img
